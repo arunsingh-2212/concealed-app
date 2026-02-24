@@ -1,44 +1,15 @@
 {
-  "version": 2,
-  "builds": [
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+      "source": "/midpages/:path*",
+      "destination": "/Pages/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/submit",
-      "dest": "/api/submit.js"
-    },
-    {
-      "src": "/api/update/(.*)",
-      "dest": "/api/update/$1.js"
-    },
-    {
-      "src": "/api/portal/login",
-      "dest": "/api/portal/login.js"
-    },
-    {
-      "src": "/api/portal/user/(.*)/courses",
-      "dest": "/api/portal/user/$1/courses.js"
-    },
-    {
-      "src": "/midpages/(.*)",
-      "dest": "/Pages/$1"
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "outputDirectory": "dist"
+  ]
 }
 
