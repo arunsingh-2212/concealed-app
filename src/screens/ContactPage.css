@@ -1,0 +1,59 @@
+.contact-page .contact-card {
+  max-width: 560px;
+}
+
+.contact-page .contact-intro {
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.contact-page .contact-email-row {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.contact-page .contact-email-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #2563eb;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.contact-page .contact-email-link:hover {
+  text-decoration: underline;
+}
+
+.contact-page .contact-email-icon {
+  font-size: 18px;
+  color: #2563eb;
+}
+
+.contact-page .contact-24-7 {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.contact-page .contact-24-7 strong {
+  color: #333;
+}
+
+.contact-page .contact-24-7 .contact-email-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact-page .contact-back-row {
+  text-align: center;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}

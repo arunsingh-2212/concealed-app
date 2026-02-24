@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .mx-md-0 {
+        margin: 10px 5px 0px !important;
+    }
+    .cbox-682592-0,
+    .cbox-177179-0,
+    .cbox-356536-0,
+    .cbox-129338-0{
+        flex: inherit !important;
+    }
+}
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px){
+    .el-557952{
+        margin: 10px 120px 0px!important;
+    }
+}

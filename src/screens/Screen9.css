@@ -1,0 +1,88 @@
+.screen-9 .success-card {
+  max-width: 860px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screen-9 .success-icon {
+  width: 72px;
+  height: 72px;
+  background: #16a34a;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.screen-9 .success-msg {
+  text-align: center;
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+.screen-9 .discount {
+  text-align: center;
+  color: #dc2626;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.screen-9 .success-content {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 24px 0;
+  justify-content: center;
+}
+
+.screen-9 .permit-card-wrap {
+  flex-shrink: 0;
+}
+
+.screen-9 .permit-card-img {
+  display: block;
+  width: 220px;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.screen-9 .benefits-list {
+  list-style: none;
+  text-align: left;
+  max-width: 380px;
+}
+
+.screen-9 .benefits-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.screen-9 .benefits-list li.check .icon {
+  color: #dc2626;
+}
+
+.screen-9 .benefits-list li.cross .icon {
+  color: #dc2626;
+}
+
+.screen-9 .benefits-list .bold {
+  font-weight: 700;
+}
+
+.screen9-footer {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}

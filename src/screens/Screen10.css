@@ -1,0 +1,267 @@
+.screen-10 {
+  padding-bottom: 32px;
+}
+
+.screen-10 .payment-hero {
+  background: linear-gradient(180deg, #2d3748 0%, #1a365d 100%);
+  color: #fff;
+  padding: 24px;
+  text-align: center;
+}
+
+.screen-10 .payment-logo {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.screen-10 .payment-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.screen-10 .payment-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 24px;
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 800px) {
+  .screen-10 .payment-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.screen-10 .form-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.screen-10 .form-section h2 {
+  font-size: 16px;
+  color: #1a365d;
+  margin-bottom: 12px;
+}
+
+.screen-10 .form-section label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.screen-10 .form-section input[type="text"],
+.screen-10 .form-section input[type="email"],
+.screen-10 .form-section select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.screen-10 .form-note {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.screen-10 .radio-group {
+  margin-bottom: 12px;
+}
+
+.screen-10 .radio-label {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 8px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.screen-10 .card-icons {
+  display: block;
+  font-size: 11px;
+  color: #888;
+  margin-top: 6px;
+}
+
+.screen-10 .card-fields {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.screen-10 .info-icon {
+  font-size: 12px;
+  color: #666;
+}
+
+.screen-10 .checkbox-label {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.screen-10 .checkbox-label input {
+  margin-top: 4px;
+}
+
+.screen-10 .checkbox-text {
+  font-size: 11px;
+  color: #666;
+  width: 100%;
+}
+
+.screen-10 .terms-text {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.screen-10 .terms-text a {
+  color: #2563eb;
+}
+
+.screen-10 .btn-order {
+  width: 100%;
+  padding: 14px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.screen-10 .btn-order:hover {
+  background: #1d4ed8;
+}
+
+.screen-10 .trust-seals {
+  font-size: 11px;
+  color: #666;
+  text-align: center;
+}
+
+.screen-10 .cart-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.screen-10 .cart-box h2 {
+  font-size: 16px;
+  color: #1a365d;
+  margin-bottom: 12px;
+}
+
+.screen-10 .countdown-box {
+  background: #fef3c7;
+  padding: 12px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.screen-10 .countdown-box p {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.screen-10 .countdown {
+  font-size: 24px;
+  font-weight: 700;
+  color: #dc2626;
+}
+
+.screen-10 .cart-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.screen-10 .cart-item-image {
+  width: 80px;
+  height: 60px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4px;
+}
+
+.screen-10 .cart-item-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.screen-10 .cart-item-details strong {
+  font-size: 14px;
+}
+
+.screen-10 .cart-price {
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.screen-10 .cart-totals .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.screen-10 .cart-totals .row.total {
+  font-weight: 700;
+  font-size: 16px;
+  border-top: 1px solid #eee;
+  margin-top: 8px;
+  padding-top: 12px;
+}
+
+.screen-10 .cart-note {
+  font-size: 11px;
+  color: #666;
+  margin-top: 12px;
+}
+
+.screen-10 .screen10-footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+  font-size: 12px;
+  color: #666;
+  border-top: 1px solid #eee;
+}
+
+.screen-10 .screen10-footer .footer-block {
+  margin-bottom: 16px;
+}
+
+.screen-10 .screen10-footer h3 {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.screen-10 .screen10-footer .copyright {
+  margin-top: 16px;
+  font-size: 11px;
+}
