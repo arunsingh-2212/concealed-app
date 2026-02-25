@@ -103,6 +103,13 @@ export default function Dashboard() {
     if (!course.hasAccess) {
       return // Don't navigate, Buy Now button will handle it
     }
+    
+    // Special handling for CCW Application Portal - redirect to main app
+    if (course.id === 'concealedapp-ocr') {
+      window.location.href = 'https://concealed-app.vercel.app/'
+      return
+    }
+    
     navigate(`/portal/course/${course.id}`)
   }
 
